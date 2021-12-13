@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\murad.binyatov\\source\\repos\\Creatio\\Creatio\\Creatio.csproj",
+      "projectUniqueName": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj",
       "projectName": "Creatio",
-      "projectPath": "C:\\Users\\murad.binyatov\\source\\repos\\Creatio\\Creatio\\Creatio.csproj",
+      "projectPath": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj",
       "packagesPath": "C:\\Users\\murad.binyatov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\murad.binyatov\\source\\repos\\Creatio\\Creatio\\obj\\",
+      "outputPath": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\murad.binyatov\\AppData\\Roaming\\NuGet\\NuGet.Config",

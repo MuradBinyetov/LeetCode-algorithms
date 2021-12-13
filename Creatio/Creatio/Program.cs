@@ -16,11 +16,19 @@ namespace Creatio
     { 
         public static void Main(string[] args)
         {
-            Console.WriteLine(Polindrome.IsPolindrome(151));
-            Console.WriteLine(RomanTime.RomanToInt("MCMXCIV"));
+            Console.WriteLine(Polindrome.IsPolindrome(151));                    //1
 
-            string str = "flight";
-            Console.WriteLine("substringb:{0}", str.Substring(0, 2));
+            Console.WriteLine(RomanTime.RomanToInt("MCMXCIV"));                 //2
+
+            string[] strs = { "flower", "flow", "flight" }; 
+            Console.WriteLine(LongestPrefix.GetLongestCommonPrefix(strs));      //3
+
+            Console.WriteLine(ValidParentheses.IsValid("{[]}"));                //4
+
+            ListNode l11 = new ListNode(1);
+            ListNode l12 = new ListNode(3); 
+            MergeTwoSortedLists.MergeTwoLists(l11, l12);                        //5
+            
 
             CreateHostBuilder(args).Build().Run();
         }
