@@ -16,19 +16,32 @@ namespace Creatio
     { 
         public static void Main(string[] args)
         {
-            Console.WriteLine(Polindrome.IsPolindrome(151));                    //1
+            Console.WriteLine(Polindrome.IsPolindrome(151));                                    //1
 
-            Console.WriteLine(RomanTime.RomanToInt("MCMXCIV"));                 //2
+            Console.WriteLine(RomanTime.RomanToInt("MCMXCIV"));                                 //2
 
             string[] strs = { "flower", "flow", "flight" }; 
-            Console.WriteLine(LongestPrefix.GetLongestCommonPrefix(strs));      //3
+            Console.WriteLine(LongestPrefix.GetLongestCommonPrefix(strs));                      //3
 
-            Console.WriteLine(ValidParentheses.IsValid("{[]}"));                //4
+            Console.WriteLine(ValidParentheses.IsValid("{[]}"));                                //4
 
             ListNode l11 = new ListNode(1);
             ListNode l12 = new ListNode(3); 
-            MergeTwoSortedLists.MergeTwoLists(l11, l12);                        //5
-            
+            MergeTwoSortedLists.MergeTwoLists(l11, l12);                                        //5
+
+            Console.WriteLine("index nomre:{0}", ImplementStr.StrStr("aa", "bba"));             //6
+
+            int[] nums = { 1, 3, 5, 6 };
+            int target = 7; 
+            Console.WriteLine(SearchInsertPosition.SearchInsert(nums, target));                 //7
+
+
+            Console.WriteLine(LengthOfTheWord.LengthOfLastWord("Today is a nice day   "));      //8
+
+            int[] nums2 = { 9,9 };
+            PlusOne.PlusOneMethod(nums2);                                                       //9
+
+            Sqrt.MySqrt(2147395599);
 
             CreateHostBuilder(args).Build().Run();
         }
