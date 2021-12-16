@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1whsMFu2y1FgdFzNP69kv+9ZZZjAO9GoA8nWfsjqr/XfCwgIXfmUPUEEpaKnM5rs8DyWVtdW5vdCUIlihurlXQ==",
+  "dgSpecHash": "2b3KqLBiCEHWGyHhmBHIzEibvmatv1Hf148h2QwlVHEHrSRyPkATrTflClnxFWRF4FLHtqUPUYqdEa7mOWf56g==",
   "success": true,
   "projectFilePath": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\murad.binyatov\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\murad.binyatov\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\murad.binyatov\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\murad.binyatov\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,4 +1,5 @@
 ﻿using Creatio.Models;
+using Creatio.Models.Easy;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -41,7 +42,24 @@ namespace Creatio
             int[] nums2 = { 9,9 };
             PlusOne.PlusOneMethod(nums2);                                                       //9
 
-            Sqrt.MySqrt(2147395599);
+            int[] nums3 = { 4, 1, 2, 1, 2 };
+            SingleNumber.SingleNumberMethod(nums3);                                             //10
+
+
+            ValidPalindrome.IsPalindrome("A man, a plan, a canal: Panama");                     //11
+
+            PascalTriangle.Generate(4);                                                         //12
+
+            PascalTriangle2.GetRow(3);                                                          //13
+
+            int[] nums4 = { 2, 7, 11, 15 };
+            TwoSum.TwoSumMethod(nums4, 9);                                                      //14
+
+            int[] nums5 = { 6,5,5 };    
+            MajorityElement.MajorityElementMethod(nums5);                                       //15
+
+
+
 
             CreateHostBuilder(args).Build().Run();
         }
