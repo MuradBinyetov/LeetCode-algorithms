@@ -59,6 +59,19 @@ namespace Creatio
             MajorityElement.MajorityElementMethod(nums5);                                       //15
 
 
+            HappyNumber.IsHappy(133);                                                           //16
+
+
+            IsomorphicStrings.IsIsomorphic("badc", "baba");                                     //17
+
+
+            int[] nums6 = { 0, 2, 3, 4, 6, 8, 9 };
+            SummaryRangers.SummaryRanges(nums6);                                                //18
+
+
+            PowerOfTwo.IsPowerOfTwo(0);                                                         //19
+
+
 
 
             CreateHostBuilder(args).Build().Run();
