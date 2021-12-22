@@ -122,9 +122,16 @@ namespace Creatio
             ConvertNumberHexadecimal.ToHex(-1);                                                 //33
 
 
-            LongestPalindrome.LongestPalindromeMethod("bb");
+            LongestPalindrome.LongestPalindromeMethod("bb");                                    //34
 
-            CreateHostBuilder(args).Build().Run();
+
+            FizzBuzz.FizzBuzzMethod(5);                                                         //35
+
+
+            int[] arr = { 1,2,2,5,3,5 };
+            ThirdMaximumNumber.ThirdMax(arr);
+
+        CreateHostBuilder(args).Build().Run();
         }
 
 
