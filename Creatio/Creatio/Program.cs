@@ -129,7 +129,30 @@ namespace Creatio
 
 
             int[] arr = { 1,2,2,5,3,5 };
-            ThirdMaximumNumber.ThirdMax(arr);
+            ThirdMaximumNumber.ThirdMax(arr);                                                   //36
+
+
+            AddStrings.AddStringsMethod("34s2", "25");                                          //37
+
+
+            NumberSegmentsString.CountSegments("world,   ");                                    //38
+
+
+            ArrangingCoins.ArrangeCoins(8);                                                     //39
+
+            int[] arr1 = {2,2 };
+            FindAllNumbersDisappearedArray.FindDisappearedNumbers(arr1);                        //40
+
+
+
+            int[] g = { 1, 2, 3 }, f = { 1, 1 };
+            AssignCookies.FindContentChildren(g, f);                                            //41
+
+
+            RepeatedSubstringPattern.RepeatedSubstringPatternMethod("abaababaab");              //42
+
+
+            HammingDistance.HammingDistanceMethod(1, 4);
 
         CreateHostBuilder(args).Build().Run();
         }

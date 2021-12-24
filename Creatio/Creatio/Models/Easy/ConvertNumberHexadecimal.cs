@@ -7,7 +7,7 @@ namespace Creatio.Models.Easy
 {
     public class ConvertNumberHexadecimal
     {
-        public static string ToHex(int num)
+        public static string ToHex(int num)  ///Menfi ededlerde nece hesablandigini tam deqiq  bilmirem.
         {
             string resp = "";
             int number = num;

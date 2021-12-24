@@ -19,14 +19,23 @@ namespace Creatio.Models.Easy
                     sortList.Add(nums[i],i);
                 }
             }
-             
-            if (sortList.Count() >= 3)
+
+            Stack<int> stack = new Stack<int>();
+
+            foreach (var item in sortList)
             {
-                return 1;
+                stack.Push(item.Key);
+            }
+
+            if (stack.Count() >= 3)
+            {
+                stack.Pop();
+                stack.Pop();
+                return stack.Pop();
             }
             else
             {
-                return sortList.LastOrDefault().Value;
+                return stack.Pop();
             }
         }
     }
