@@ -81,8 +81,8 @@ namespace Creatio
 
             UglyNumber.IsUgly(-2147483648);                                                     //22
 
-            
-            int[] nums7 = {3,0,1};
+
+            int[] nums7 = { 3, 0, 1 };
             MissingNumber.MissingNumberMethod(nums7);                                           //23
 
 
@@ -90,13 +90,13 @@ namespace Creatio
             MoveZeroes.MoveZeroesMethod(nums8);                                                 //24
 
 
-            WordPattern.WordPatternMethod("abbb","dog cat cat dog");                            //25
+            WordPattern.WordPatternMethod("abbb", "dog cat cat dog");                            //25
 
 
             CountingBits.CountBits(5);                                                          //26
 
 
-            char[] s = { 'h', 'e', 'l', 'l', 'o'};
+            char[] s = { 'h', 'e', 'l', 'l', 'o' };
             ReverseString.ReverseStringMethod(s);                                               //27
 
 
@@ -105,9 +105,9 @@ namespace Creatio
 
 
 
-            int[] nums9 = { 1,2,2,1 };
-            int[] nums10 = { 2,2 };
-            IntersectionOfTwoArrays.Intersection(nums9,nums10);                                 //29
+            int[] nums9 = { 1, 2, 2, 1 };
+            int[] nums10 = { 2, 2 };
+            IntersectionOfTwoArrays.Intersection(nums9, nums10);                                 //29
 
 
             RansomNote.CanConstruct("aa", "ab");                                                //30
@@ -118,7 +118,7 @@ namespace Creatio
 
             IsSubsequence.IsSubsequenceMethod("abc", "ahbgdc");                                 //32
 
- 
+
             ConvertNumberHexadecimal.ToHex(-1);                                                 //33
 
 
@@ -128,7 +128,7 @@ namespace Creatio
             FizzBuzz.FizzBuzzMethod(5);                                                         //35
 
 
-            int[] arr = { 1,2,2,5,3,5 };
+            int[] arr = { 1, 2, 2, 5, 3, 5 };
             ThirdMaximumNumber.ThirdMax(arr);                                                   //36
 
 
@@ -140,7 +140,7 @@ namespace Creatio
 
             ArrangingCoins.ArrangeCoins(8);                                                     //39
 
-            int[] arr1 = {2,2 };
+            int[] arr1 = { 2, 2 };
             FindAllNumbersDisappearedArray.FindDisappearedNumbers(arr1);                        //40
 
 
@@ -159,6 +159,15 @@ namespace Creatio
 
 
             ConstructRectangle.ConstructRectangleMethod(24);                                    //45
+
+
+            Base7.ConvertToBase7(-8);                                                           //46
+
+
+            FibonacciNumber.Fib(5);                                                             //47
+
+
+            DetectCapital.DetectCapitalUse("leetcode");
 
         CreateHostBuilder(args).Build().Run();
         }
