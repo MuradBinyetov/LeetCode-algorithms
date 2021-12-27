@@ -152,7 +152,13 @@ namespace Creatio
             RepeatedSubstringPattern.RepeatedSubstringPatternMethod("abaababaab");              //42
 
 
-            HammingDistance.HammingDistanceMethod(1, 4);
+            HammingDistance.HammingDistanceMethod(1, 4);                                        //43
+
+
+            NumberComplement.FindComplement(1);                                                 //44
+
+
+            ConstructRectangle.ConstructRectangleMethod(24);                                    //45
 
         CreateHostBuilder(args).Build().Run();
         }
