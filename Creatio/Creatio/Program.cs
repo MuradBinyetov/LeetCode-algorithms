@@ -167,7 +167,12 @@ namespace Creatio
             FibonacciNumber.Fib(5);                                                             //47
 
 
-            DetectCapital.DetectCapitalUse("leetcode");
+            DetectCapital.DetectCapitalUse("Usa");                                              //48
+
+
+            StudentAttendanceRecord1.CheckRecord("PPALLL");                                     //49
+
+            ReverseWordsStringIII.ReverseWords("Let's take LeetCode contest");
 
         CreateHostBuilder(args).Build().Run();
         }

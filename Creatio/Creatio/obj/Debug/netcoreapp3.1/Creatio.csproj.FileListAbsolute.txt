@@ -72,3 +72,5 @@ C:\Users\murad.binyatov\Desktop\LeetCode-algorithms\Creatio\Creatio\obj\Debug\ne
 C:\Users\murad.binyatov\Desktop\LeetCode-algorithms\Creatio\Creatio\obj\Debug\netcoreapp3.1\Creatio.pdb
 C:\Users\murad.binyatov\Desktop\LeetCode-algorithms\Creatio\Creatio\obj\Debug\netcoreapp3.1\Creatio.genruntimeconfig.cache
 C:\Users\murad.binyatov\Desktop\LeetCode-algorithms\Creatio\Creatio\obj\Debug\netcoreapp3.1\Creatio.csproj.CopyComplete
+C:\Users\murad.binyatov\Desktop\LeetCode-algorithms\Creatio\Creatio\bin\Debug\netcoreapp3.1\MimeKit.dll
+C:\Users\murad.binyatov\Desktop\LeetCode-algorithms\Creatio\Creatio\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
