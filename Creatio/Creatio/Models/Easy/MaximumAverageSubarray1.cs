@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Creatio.Models.Easy
 {
-    public class ReshapeTheMatrix
+    public class MaximumAverageSubarray1
     {
     }
 }

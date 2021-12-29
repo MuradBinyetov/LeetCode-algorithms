@@ -90,7 +90,7 @@ namespace Creatio
             MoveZeroes.MoveZeroesMethod(nums8);                                                 //24
 
 
-            WordPattern.WordPatternMethod("abbb", "dog cat cat dog");                            //25
+            WordPattern.WordPatternMethod("abbb", "dog cat cat dog");                           //25
 
 
             CountingBits.CountBits(5);                                                          //26
@@ -107,7 +107,7 @@ namespace Creatio
 
             int[] nums9 = { 1, 2, 2, 1 };
             int[] nums10 = { 2, 2 };
-            IntersectionOfTwoArrays.Intersection(nums9, nums10);                                 //29
+            IntersectionOfTwoArrays.Intersection(nums9, nums10);                                //29
 
 
             RansomNote.CanConstruct("aa", "ab");                                                //30
@@ -172,7 +172,30 @@ namespace Creatio
 
             StudentAttendanceRecord1.CheckRecord("PPALLL");                                     //49
 
-            ReverseWordsStringIII.ReverseWords("Let's take LeetCode contest");
+
+            ReverseWordsStringIII.ReverseWords("Let's take LeetCode contest");                  //50
+
+
+            int[] candyType = { 1, 1, 2, 2, 3, 3 };
+            DistributeCandies.DistributeCandiesMethod(candyType);                               //51
+
+
+
+            string[] list1 = { "Shogun", "Tapioca Express", "Burger King", "KFC" };
+            string[] list2 = { "KFC", "Shogun", "Burger King" };
+            MinimumIndexSumTwoLists.FindRestaurant(list1, list2);                               //52
+
+
+
+            int[] flower = { 1,0,1,0,0,1};
+            CanPlaceFlowers.CanPlaceFlowersMethod(flower, 2);                                   //53
+
+
+            int[] product = { -5, -2, -3, -4 };
+            MaximumProductThreeNumbers.MaximumProduct(product);
+
+
+
 
         CreateHostBuilder(args).Build().Run();
         }

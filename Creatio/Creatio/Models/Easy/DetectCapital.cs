@@ -7,7 +7,7 @@ namespace Creatio.Models.Easy
 {
     public class DetectCapital
     {
-        public static bool DetectCapitalUse(string word)
+        public static bool DetectCapitalUse(string word)   // UpperCase = [65-->90]  LowerCase = [97 --> 122]
         { 
             var first = (int)word[0];
             var second = (int)word[1];
