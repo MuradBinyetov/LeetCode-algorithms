@@ -45,7 +45,7 @@ namespace Creatio.Models.Easy
                     }
                 }
             }
-            if(first >=97 && first <= 122)
+            if(first >= 97 && first <= 122)
             {
                 for (int i = 1; i < word.Length; i++)
                 {

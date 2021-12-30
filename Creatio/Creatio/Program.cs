@@ -187,15 +187,18 @@ namespace Creatio
 
 
 
-            int[] flower = { 1,0,1,0,0,1};
+            int[] flower = { 1, 0, 1, 0, 0, 1 };
             CanPlaceFlowers.CanPlaceFlowersMethod(flower, 2);                                   //53
 
 
-            int[] product = { -5, -2, -3, -4 };
-            MaximumProductThreeNumbers.MaximumProduct(product);
+
+            int[] numsArr = {1, 12, -5, -6, 50, 3};
+            int k = 4;
+            MaximumAverageSubarray1.FindMaxAverage(numsArr, k);                                 //54
 
 
-
+            int[] array = { 3,2,2 };
+            SetMismatch.FindErrorNums(array);
 
         CreateHostBuilder(args).Build().Run();
         }
