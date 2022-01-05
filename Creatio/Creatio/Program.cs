@@ -192,13 +192,23 @@ namespace Creatio
 
 
 
-            int[] numsArr = {1, 12, -5, -6, 50, 3};
+            int[] numsArr = {1, 12, -5, -6, 50, 3};                                                   
             int k = 4;
             MaximumAverageSubarray1.FindMaxAverage(numsArr, k);                                 //54
 
 
             int[] array = { 3,2,2 };
-            SetMismatch.FindErrorNums(array);
+            SetMismatch.FindErrorNums(array);                                                   //55
+
+
+            RobotReturnOrigin.JudgeCircle("UD");                                                //56
+
+
+            int[] array2 = { 1, 3, 5, 4, 7 };
+            LongestContinuousIncreasingSubsequence.FindLengthOfLCIS(array2);                    //57
+
+
+            ValidPalindrome2.ValidPalindrome("abca");
 
         CreateHostBuilder(args).Build().Run();
         }
