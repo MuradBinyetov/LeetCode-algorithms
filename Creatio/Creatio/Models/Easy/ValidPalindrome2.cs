@@ -35,8 +35,7 @@ namespace Creatio.Models.Easy
             {
                 ++i;
                 --j;
-            }
-
+            } 
             return i >= j;
         } 
     }

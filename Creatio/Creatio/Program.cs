@@ -208,7 +208,17 @@ namespace Creatio
             LongestContinuousIncreasingSubsequence.FindLengthOfLCIS(array2);                    //57
 
 
-            ValidPalindrome2.ValidPalindrome("abca");
+            ValidPalindrome2.ValidPalindrome("abca");                                           //58
+
+
+            BinaryNumberAlternatingBits.HasAlternatingBits(5);                                  //59
+
+
+            CountBinarySubstrings.CountBinarySubstringsMethod("00110011");                      //60
+
+
+            int[] array3 = { 1, 2, 2, 3, 1, 4, 2 };
+            DegreeArray.FindShortestSubArray(array3);
 
         CreateHostBuilder(args).Build().Run();
         }
