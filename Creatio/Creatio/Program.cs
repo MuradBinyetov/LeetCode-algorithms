@@ -218,7 +218,20 @@ namespace Creatio
 
 
             int[] array3 = { 1, 2, 2, 3, 1, 4, 2 };
-            DegreeArray.FindShortestSubArray(array3);
+            DegreeArray.FindShortestSubArray(array3);                                           //61
+
+
+            SelfDividingNumbers.SelfDividingNumbersMethod(1,22);                                //62
+
+
+
+            char[] letters = { 'c', 'f', 'j' };
+
+            FindSmallestLetterGreaterThanTarget.NextGreatestLetter(letters, 'j');               //63
+
+
+            int[] ar = {1, 0};
+            LargestNumberLeastTwiceOthers.DominantIndex(ar);
 
         CreateHostBuilder(args).Build().Run();
         }
