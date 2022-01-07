@@ -17,6 +17,9 @@ namespace Creatio
     {
         public static void Main(string[] args)
         {
+
+            #region Easy Tasks
+
             Console.WriteLine(Polindrome.IsPolindrome(151));                                    //1
 
             Console.WriteLine(RomanTime.RomanToInt("MCMXCIV"));                                 //2
@@ -231,9 +234,20 @@ namespace Creatio
 
 
             int[] ar = {1, 0};
-            LargestNumberLeastTwiceOthers.DominantIndex(ar);
+            LargestNumberLeastTwiceOthers.DominantIndex(ar);                                    //64
 
-        CreateHostBuilder(args).Build().Run();
+
+
+            string licenseWord = "1s3 PSt";
+            string[] words = { "sttepss", "steps", "stripe", "stepple" };
+            ShortestCompletingWord.ShortestCompletingWordMethod(licenseWord, words);            //65
+
+
+            PrimeNumberSetBitsBinaryRepresentation.CountPrimeSetBits(10, 15);
+
+            #endregion
+
+            CreateHostBuilder(args).Build().Run();
         }
 
 
