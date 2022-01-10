@@ -195,12 +195,12 @@ namespace Creatio
 
 
 
-            int[] numsArr = {1, 12, -5, -6, 50, 3};                                                   
+            int[] numsArr = { 1, 12, -5, -6, 50, 3 };
             int k = 4;
             MaximumAverageSubarray1.FindMaxAverage(numsArr, k);                                 //54
 
 
-            int[] array = { 3,2,2 };
+            int[] array = { 3, 2, 2 };
             SetMismatch.FindErrorNums(array);                                                   //55
 
 
@@ -224,7 +224,7 @@ namespace Creatio
             DegreeArray.FindShortestSubArray(array3);                                           //61
 
 
-            SelfDividingNumbers.SelfDividingNumbersMethod(1,22);                                //62
+            SelfDividingNumbers.SelfDividingNumbersMethod(1, 22);                                //62
 
 
 
@@ -233,7 +233,7 @@ namespace Creatio
             FindSmallestLetterGreaterThanTarget.NextGreatestLetter(letters, 'j');               //63
 
 
-            int[] ar = {1, 0};
+            int[] ar = { 1, 0 };
             LargestNumberLeastTwiceOthers.DominantIndex(ar);                                    //64
 
 
@@ -243,7 +243,18 @@ namespace Creatio
             ShortestCompletingWord.ShortestCompletingWordMethod(licenseWord, words);            //65
 
 
-            PrimeNumberSetBitsBinaryRepresentation.CountPrimeSetBits(10, 15);
+            PrimeNumberSetBitsBinaryRepresentation.CountPrimeSetBits(10, 15);                   //66
+
+
+            RotateString.RotateStringMethod("abcde", "cdeab");                                  //67
+
+
+            string paragraph = "L, P! T; p's; q'";
+            string[] banned = { "m", "i" };
+            MostCommonWord.MostCommonWordMethod(paragraph, banned);                             //68
+
+
+            PositionsLargeGroups.LargeGroupPositions("aaa");
 
             #endregion
 
