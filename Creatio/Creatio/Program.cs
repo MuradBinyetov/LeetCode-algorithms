@@ -254,7 +254,19 @@ namespace Creatio
             MostCommonWord.MostCommonWordMethod(paragraph, banned);                             //68
 
 
-            PositionsLargeGroups.LargeGroupPositions("aaa");
+            PositionsLargeGroups.LargeGroupPositions("aaa");                                    //69
+           
+
+            BackspaceStringCompare.BackspaceCompare("j##xfix", "j###xfix");                     //70
+
+
+            int[] bills = { 5,5,5, 20 };
+            LemonadeChange.LemonadeChangeMethod(bills);                                         //71
+
+
+            BinaryGap.BinaryGapMethod(22);                                                      //72
+
+             
 
             #endregion
 

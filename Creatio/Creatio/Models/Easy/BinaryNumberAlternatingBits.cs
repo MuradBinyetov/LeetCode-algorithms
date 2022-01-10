@@ -12,9 +12,9 @@ namespace Creatio.Models.Easy
             Stack<int> stack = new Stack<int>();
             while (n >= 2)
             {
-                int qalixxx = n % 2;
+                int qaliq = n % 2;
                 n = n / 2;
-                stack.Push(qalixxx);
+                stack.Push(qaliq);
             }
 
             stack.Push(n);
