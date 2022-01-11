@@ -1,5 +1,6 @@
 ﻿using Creatio.Models;
 using Creatio.Models.Easy;
+using Creatio.Models.Medium;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -266,9 +267,29 @@ namespace Creatio
 
             BinaryGap.BinaryGapMethod(22);                                                      //72
 
-             
+
+            ReverseOnlyLetters.ReverseOnlyLettersMethod("Test1ng-Leet=code-Q!");                //73
+
+
+            int[] sortArr = {4,2,5,7 };
+            SortArrayParityII.SortArrayByParityII(sortArr);                                     //74
+
+
+            LongPressedName.IsLongPressedName("saeed", "ssaaedd");                              //75 
 
             #endregion
+
+
+            #region Medium Tasks
+
+            LongestSubstringWithoutRepeatingCharacters.LengthOfLongestSubstring("abcabcbb");
+
+            ReverseInteger.Reverse(123);
+
+            StringToInteger_atoi_.MyAtoi("   -42");
+
+            #endregion
+
 
             CreateHostBuilder(args).Build().Run();
         }
