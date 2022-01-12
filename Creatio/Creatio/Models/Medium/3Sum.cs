@@ -19,7 +19,7 @@ namespace Creatio.Models.Medium
                 int x = i + 1;
                 int y = nums.Length - 1;
                 while (x < y)
-                {
+                { 
                     if (nums[x] + nums[y] == sum)
                     {
                         output.Add(new List<int>(new int[] {nums[i], nums[x], nums[y] }));
