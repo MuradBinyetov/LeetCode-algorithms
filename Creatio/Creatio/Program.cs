@@ -288,6 +288,16 @@ namespace Creatio
 
             StringToInteger_atoi_.MyAtoi("   -42");
 
+            IntegerToRoman.IntToRoman(58);
+
+
+            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            ContainerWithMostWater.MaxArea(height);
+
+
+            int[] n = { -1, 0, 1, 2, -1, -4 };
+            _3Sum.ThreeSum(n);
+
             #endregion
 
 
