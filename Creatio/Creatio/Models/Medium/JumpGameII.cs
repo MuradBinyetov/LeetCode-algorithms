@@ -7,30 +7,21 @@ namespace Creatio.Models.Medium
 {
     public class JumpGameII
     {
-        public static int Jump(int[] nums) //[3,2,1] --->1
+        public static int Jump(int[] nums) //[1,1,1,1] --->1
         {
-
-            if (nums.Length == 1) return 0;
-            if (nums.Length == 2) return 1;
-            int length = nums.Length; 
-           
-            // if (1 + nums[1] >= length -1) return 2;
-
-            int count = 1;
-            for (int i = 0; i < nums.Length; i++)
+            var step = 0;
+            var curEnd = 0;
+            var curfastjump = 0;
+            for (int i = 0; i < nums.Length - 1; i++)
             {
-                while(i+ nums[i] >= nums.Length - 1)
+                curfastjump = Math.Max(nums[i] + i, curfastjump);
+                if (i == curEnd)
                 {
-                    count++;
-                    while (i + nums[i] < nums.Length)
-                    {
-                        i = i + nums[i];
-                    }
-                     
+                    step++;
+                    curEnd = curfastjump;
                 }
             }
-
-            return count;
+            return step;
         }
     }
 }

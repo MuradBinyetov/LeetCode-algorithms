@@ -298,11 +298,11 @@ namespace Creatio
             int[] n = { -1, 0, 1, 2, -1, -4 };
             _3Sum.ThreeSum(n);
 
-            int[] jumpArr = { 2, 3, 1, 1, 4 };
+            int[] jumpArr = { 1,1,1,1 };
             JumpGameII.Jump(jumpArr);
 
             #endregion
-
+              
 
             CreateHostBuilder(args).Build().Run();
         }

@@ -16,8 +16,8 @@ namespace Creatio.Models.Easy
                 {
                     if(numbers[i] + numbers[f] == target)
                     {
-                        returnArr.Add(i + 1);
-                        returnArr.Add(f + 1);
+                        returnArr.Add(i);
+                        returnArr.Add(f);
                         return returnArr.ToArray();
                     }
                 }
