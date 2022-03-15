@@ -314,6 +314,9 @@ namespace Creatio
 
             List<int> list = new List<int> { 1, 2, 3, 4, 3 ,3 ,2, 1 };
             CutSticks_HACKERRANK_.cutTheSticks(list);
+
+            string[] emails = { "test.email+alex@leetcode.com", "test.email@leetcode.com"};
+            UniqueEmailAddresses.NumUniqueEmailsMethod(emails);
             #endregion
 
 

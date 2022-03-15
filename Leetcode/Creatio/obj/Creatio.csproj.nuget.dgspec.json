@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj": {}
+    "C:\\Users\\User\\Desktop\\LeetCode-algorithms\\Leetcode\\Creatio\\Creatio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj": {
+    "C:\\Users\\User\\Desktop\\LeetCode-algorithms\\Leetcode\\Creatio\\Creatio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\LeetCode-algorithms\\Leetcode\\Creatio\\Creatio.csproj",
         "projectName": "Creatio",
-        "projectPath": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\Creatio.csproj",
-        "packagesPath": "C:\\Users\\murad.binyatov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murad.binyatov\\Desktop\\LeetCode-algorithms\\Creatio\\Creatio\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\LeetCode-algorithms\\Leetcode\\Creatio\\Creatio.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\LeetCode-algorithms\\Leetcode\\Creatio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\murad.binyatov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
