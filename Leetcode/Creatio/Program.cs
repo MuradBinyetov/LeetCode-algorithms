@@ -317,6 +317,9 @@ namespace Creatio
 
             string[] emails = { "test.email+alex@leetcode.com", "test.email@leetcode.com"};
             UniqueEmailAddresses.NumUniqueEmailsMethod(emails);
+
+            string[] logs = { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero" };
+            ReorderDataLogFiles.ReorderLogFiles(logs);
             #endregion
 
 
