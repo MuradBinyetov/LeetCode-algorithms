@@ -86,7 +86,6 @@ C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\bin\Debug\netcoreapp3
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\bin\Debug\netcoreapp3.1\Creatio.Views.pdb
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\bin\Debug\netcoreapp3.1\MimeKit.dll
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.AssemblyInfo.cs

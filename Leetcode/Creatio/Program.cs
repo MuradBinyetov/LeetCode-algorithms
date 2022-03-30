@@ -20,9 +20,7 @@ namespace Creatio
         {
 
             #region Easy Tasks
-
-            Console.WriteLine(Polindrome.IsPolindrome(151));                                    //1
-
+             
             Console.WriteLine(RomanTime.RomanToInt("MCMXCIV"));                                 //2
 
             string[] strs = { "flower", "flow", "flight" };
@@ -320,42 +318,43 @@ namespace Creatio
 
             string[] logs = { "dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero" };
             ReorderDataLogFiles.ReorderLogFiles(logs);
+ 
             #endregion
 
 
             #region Medium Tasks
 
-            LongestSubstringWithoutRepeatingCharacters.LengthOfLongestSubstring("abcabcbb");
+            //LongestSubstringWithoutRepeatingCharacters.LengthOfLongestSubstring("abcabcbb");
 
-            ReverseInteger.Reverse(123);
+            //ReverseInteger.Reverse(123);
 
-            StringToInteger_atoi_.MyAtoi("   -42");
+            //StringToInteger_atoi_.MyAtoi("   -42");
 
-            IntegerToRoman.IntToRoman(58);
-
-
-            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-            ContainerWithMostWater.MaxArea(height);
+            //IntegerToRoman.IntToRoman(58);
 
 
-            int[] n = { -1, 0, 1, 2, -1, -4 };
-            _3Sum.ThreeSum(n);
-
-            int[] jumpArr = { 1, 1, 1, 1 };
-            JumpGameII.Jump(jumpArr);
+            //int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            //ContainerWithMostWater.MaxArea(height);
 
 
-            int[] numsArr2 = {-1, 2, 1, -4};
-            _3SumCLosest.ThreeSumClosest(numsArr2, 1);
+            //int[] n = { -1, 0, 1, 2, -1, -4 };
+            //_3Sum.ThreeSum(n);
+
+            //int[] jumpArr = { 1, 1, 1, 1 };
+            //JumpGameII.Jump(jumpArr);
 
 
-            List<int> a = new List<int> { 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66 };
-            PickingNumbers_HACKERRANK_.pickingNumbers(a);
+            //int[] numsArr2 = {-1, 2, 1, -4};
+            //_3SumCLosest.ThreeSumClosest(numsArr2, 1);
 
 
-            UtopianTree_HACKERRANK_.utopianTree(5);
+            //List<int> a = new List<int> { 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66 };
+            //PickingNumbers_HACKERRANK_.pickingNumbers(a);
 
-            BeatifulDays_HACKERRANK_.beautifulDays(20, 23, 6);
+
+            //UtopianTree_HACKERRANK_.utopianTree(5);
+
+            //BeatifulDays_HACKERRANK_.beautifulDays(20, 23, 6);
 
          
 
