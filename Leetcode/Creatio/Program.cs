@@ -20,9 +20,9 @@ namespace Creatio
         {
 
             #region Easy Tasks
-            int[] arr = { 64, 25, 12, 22, 11 };
-            SelectionSort.Sort(arr);
- 
+
+            DivideTwoNumber.divide(100, 2);
+
             #endregion
 
 
@@ -60,7 +60,7 @@ namespace Creatio
 
             //BeatifulDays_HACKERRANK_.beautifulDays(20, 23, 6);
 
-         
+
 
             #endregion
 

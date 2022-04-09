@@ -42,7 +42,7 @@ namespace Creatio.Models.Easy
             return -1;
 
 
-        }
+        } 
 
     }
 }
