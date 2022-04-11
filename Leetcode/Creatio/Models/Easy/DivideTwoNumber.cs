@@ -42,5 +42,25 @@ namespace Creatio.Models.Easy
              return quotient;
         }
 
+
+        public static int MethodTest(int x,int y)
+        {
+            int ferq = 1;
+            int a = y;
+            while (x > a)
+            {
+                a = a * 2;
+                ferq = ferq * 2;
+            }
+
+            while (a > x)
+            {
+                a = a - y;
+                ferq--;
+            }
+
+
+            return ferq;
+        }
     }
 }
