@@ -26,8 +26,7 @@ namespace Creatio.Models.Easy
                 {
                     secondMin = arr[i];
                 }
-            }
-
+            } 
             return list;
         }
     }

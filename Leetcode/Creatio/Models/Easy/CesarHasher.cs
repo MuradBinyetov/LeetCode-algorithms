@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Creatio.Models.Easy
 {
-    public class CesarHasher
-    {
-        static string Cesar(string orgStr, int key)
+    public static class CesarHasher
+    { 
+        public static string Cesar(string orgStr, int key)
         {
             string respStr = string.Empty;
             foreach (var item in orgStr)
