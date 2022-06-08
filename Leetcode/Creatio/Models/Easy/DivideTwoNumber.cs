@@ -9,22 +9,22 @@ namespace Creatio.Models.Easy
     {  
         public static int MethodTest(int x,int y)
         {
-            int ferq = 1;
+            int resp = 1;
             int a = y;
             while (x > a)
             {
-                a = a * 2;
-                ferq = ferq * 2;
+                a += a;
+                resp += resp;
             }
 
             while (a > x)
             {
                 a = a - y;
-                ferq--;
+                resp--;
             }
 
 
-            return ferq;
+            return resp;
         }
     }
 }

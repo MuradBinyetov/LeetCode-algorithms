@@ -21,9 +21,11 @@ namespace Creatio
 
             #region Easy Tasks
 
-           // DivideTwoNumber.MethodTest(97, 2);
+            // DivideTwoNumber.MethodTest(97, 2);
 
             //ZeroAndOneSamePlace.Method("01000110010");
+
+            DivideTwoNumber.MethodTest(15, 2);
 
             int[] arr = { 5, 18, 2, 21, 7, 1 };
             //TwoMinIntegersFromArray.Method(arr);
