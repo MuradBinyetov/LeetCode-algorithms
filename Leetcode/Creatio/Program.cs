@@ -19,12 +19,18 @@ namespace Creatio
         public static void Main(string[] args)
         {
 
-            #region Easy Tasks
+            #region Easy Tasks 
             int[] array = { 1, 3, 2, 1 };
-            AddArrayFormInteger.AddToArrayForm(array,34);
+            AddArrayFormInteger.AddToArrayForm(array,34); 
+
+            DivideTwoNumber.MethodTest(15, 2);
 
             int[] arr = { 5, 18, 2, 21, 7, 1 };
             TwoMinIntegersFromArray.MaxMethod(arr);
+
+            int[] arr2 = {1,1,0,0,1,1,0,0,1};
+            ZeroAndOneSamePlace.Method2(arr2);
+             
 
             #endregion
 

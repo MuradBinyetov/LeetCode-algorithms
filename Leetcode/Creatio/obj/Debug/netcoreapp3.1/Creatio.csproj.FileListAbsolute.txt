@@ -113,3 +113,5 @@ C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.pdb
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.genruntimeconfig.cache
 C:\Users\User\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.dll
+C:\Users\Admin\Desktop\LeetCode-algorithms\Leetcode\Creatio\obj\Debug\netcoreapp3.1\Creatio.pdb

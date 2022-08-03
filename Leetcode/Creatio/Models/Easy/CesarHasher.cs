@@ -5,36 +5,43 @@ using System.Threading.Tasks;
 
 namespace Creatio.Models.Easy
 {
-    public class CesarHasher
-    {
-        static string Cesar(string orgStr, int key)
+    public static class CesarHasher
+    { 
+        public static string Cesar(string orgStr, int key)
         {
-            var hashStr = string.Empty;
-            if (key > 26)
+            string respStr = string.Empty;
+            foreach (var item in orgStr)
             {
-                key = key % 26;
-            }
-            for (var i = 0; i < orgStr.Length; i++)
-            {
-                int orgIndex = (char)orgStr[i];
-                var hashLetterIndex = orgIndex + key;
-                if (orgIndex >= 65 && orgIndex <= 90)
+                int orgIndex = (char)item;
+                char hashLetter = ' ';
+                if((orgIndex>=65 && orgIndex<=90) || (orgIndex>=97 && orgIndex<=122))
                 {
-                    if (hashLetterIndex > 90)
+                    int hashIndex = orgIndex + key;
+                    if(orgIndex>=65 && orgIndex<=90)
+                        {
+                            if(hashIndex > 90){
+                                hashIndex = 65 + (hashIndex-90);
+                            }
+                        }
+                    else if(orgIndex>=97 && orgIndex<=122)
                     {
-                        hashLetterIndex = hashLetterIndex - 26;
-                    }
+                        if(hashIndex > 122)
+                        {
+                            hashIndex = 97 + (hashIndex-122);
+                        }
+                    } 
+                    hashLetter = Convert.ToChar(hashIndex);
                 }
                 else
                 {
-                    hashLetterIndex = orgIndex;
-                }
-                var hashLetter = Convert.ToChar(hashLetterIndex);
-
-                hashStr += hashLetter;
-
+                     hashLetter= Convert.ToChar(orgIndex);
+                } 
+                
+                respStr += hashLetter;
             }
-            return hashStr;
+
+            Console.WriteLine(respStr);
+            return respStr;
         }
  
     }

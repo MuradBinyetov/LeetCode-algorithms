@@ -34,5 +34,39 @@ namespace Creatio.Models.Easy
             //}
             return resp + resp2;
         }
+
+        public static int[] Method2(int[] arr)//[1,1,0,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0]
+        {
+           
+            for (int i = 0; i < arr.Length-1; i++)
+            {
+                int minIndex = i;
+                for (int j = i+1; j < arr.Length; j++)
+                { 
+                    if(Compare(minIndex,j,arr) == -1)
+                    {
+                        minIndex = j; 
+                    } 
+                }
+                int temp = arr[i];
+                arr[i] = arr[minIndex];
+                arr[minIndex] = temp;
+
+            }
+            return arr;
+        }
+
+        static int Compare(int index1, int index2,int[] arr) 
+        {
+            if(arr[index1]>arr[index2])
+            {
+                return 1;
+            }
+            else if (arr[index1] < arr[index2])
+            {
+                return -1;
+            }
+            return 0;
+        }
     }
 }
