@@ -6,28 +6,27 @@ namespace Creatio.Models
 {
     class SumOfDiagonalTwoDimensionalArray
     {
-		public static void ArrayDiagonal(int[,] array)
+		public static int ArrayDiagonal(int[,] array)
 		{
-			int sum = 0; 
-			int rowLength = array.GetLength(0);
-			int columnLength = array.GetLength(1);
-			Console.WriteLine("\n\nDiagonal Array Element: ");
-			Console.WriteLine("------------------------------------------------ ");
+            int leftDiagonal = 0;
+            int rightDiagonal = 0;
+            for (int row = 0; row < array.GetLength(0); row++)
+            {
+                for (int column = 0; column < array.GetLength(1); column++)
+                {
+                    if(row == column)
+                    {
+                        leftDiagonal += array[row, column];
+                    }
 
-			for (int row = 0; row < rowLength; row++)
-			{
-				for (int column = 0; column < columnLength; column++)
-				{
-					Console.Write("  ");
-					if (row == column)
-					{
-						Console.Write(array[row, column] + " ");
-						sum += array[row, column]; 
-					}
-				}
-				Console.WriteLine();
-			}
-			Console.WriteLine("\n\nDiagonal Array Element Sum : " + sum);
+                    if((row+column) == array.GetLength(0) - 1)
+                    {
+                        rightDiagonal += array[row, column];
+                    }
+                }
+            }
+            int sum = leftDiagonal + rightDiagonal;
+            return sum;
 		}
 	} 
 }
