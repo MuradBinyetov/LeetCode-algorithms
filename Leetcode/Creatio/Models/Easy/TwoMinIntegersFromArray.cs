@@ -30,5 +30,32 @@ namespace Creatio.Models.Easy
 
             return list;
         }
+
+
+        public static int[] MaxMethod(int[] arr)
+        {
+            int[] respArr = new int[2];
+            int firstNum = int.MinValue;
+            int secondNum = int.MinValue;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > firstNum)
+                {
+                    secondNum = firstNum;
+                    firstNum = arr[i];
+                }
+                else if (secondNum < arr[i] && arr[i] != firstNum)
+                {
+                    secondNum = arr[i];
+                }
+            }
+             
+
+            respArr[0] = firstNum;
+            respArr[1] = secondNum;
+            return respArr;
+
+        }
     }
 }

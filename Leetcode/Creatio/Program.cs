@@ -20,13 +20,11 @@ namespace Creatio
         {
 
             #region Easy Tasks
-
-            DivideTwoNumber.MethodTest(97, 2);
-
-            //ZeroAndOneSamePlace.Method("01000110010");
+            int[] array = { 1, 3, 2, 1 };
+            AddArrayFormInteger.AddToArrayForm(array,34);
 
             int[] arr = { 5, 18, 2, 21, 7, 1 };
-            //TwoMinIntegersFromArray.Method(arr);
+            TwoMinIntegersFromArray.MaxMethod(arr);
 
             #endregion
 

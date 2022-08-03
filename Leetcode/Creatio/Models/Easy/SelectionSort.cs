@@ -19,12 +19,20 @@ namespace Creatio.Models.Easy
                         minIndex = j;
                     }
                 }
-
+            
                 int temp = arr[i];
                 arr[i] = arr[minIndex];
-                arr[minIndex] = temp;
+                arr[minIndex] = temp; 
             }
             return arr;
+            
+
+            List<int> myNumber = new List<int>(); 
+            myNumber.Add(5);
+            myNumber.Add(6);
+            myNumber.Add(7);
+             
+
         }
     }
 }

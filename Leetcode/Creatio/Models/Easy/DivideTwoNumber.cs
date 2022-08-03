@@ -62,5 +62,25 @@ namespace Creatio.Models.Easy
 
             return ferq;
         }
+
+        public static int MethodOnlySumAndSub(int a,int b)
+        {
+            int resp = 1;
+            int temp = b;
+            a=Math.Abs(a);
+            temp =Math.Abs(temp);
+            b = Math.Abs(b);
+            while (a > temp)
+            {
+                temp += temp;
+                resp += resp;
+            }
+            while (temp > a)
+            {
+                temp = temp - b;
+                resp--;
+            }
+            return resp;
+        }
     }
 }

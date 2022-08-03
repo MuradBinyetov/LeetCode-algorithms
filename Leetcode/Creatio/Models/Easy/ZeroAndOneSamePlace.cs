@@ -27,11 +27,11 @@ namespace Creatio.Models.Easy
                     resp2 += 1;
                 }
             }
-            for (int i = 1; i <= count; i++)
-            {
-                resp += 1;
-                //text.Append(1);
-            }
+            //for (int i = 1; i <= count; i++)
+            //{
+            //    resp += 1;
+            //    //text.Append(1);
+            //}
             return resp + resp2;
         }
     }
