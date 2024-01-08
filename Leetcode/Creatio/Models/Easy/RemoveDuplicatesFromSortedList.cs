@@ -7,40 +7,39 @@ namespace Creatio.Models
 {
     public class RemoveDuplicatesFromSortedList
     {
-        public Node DeleteDuplicates(Node head)
+
+        public static ListNodeClass DeleteDuplicates(ListNodeClass head) // [1,1,2,3,3]
         {
-            Node current = head;
-
-            /* Pointer to store the next
-            pointer of a node to be deleted*/
-            Node next_next;
-
-            /* do nothing if the list is empty */
-            if (head == null)
-                return head;
-
-            /* Traverse list till the last node */
-            while (current.next != null)
+            if (head == null || head.next == null)
             {
-                /*Compare current node with the next node */
-                if (current.val == current.next.val)
-                {
-                    next_next = current.next.next;
-                    current.next = null;
-                    current.next = next_next;
-                }
-                else // advance if no deletion
-                    current = current.next;
+                return head;
             }
+
+            var start = head;
+            while (start.next != null)
+            {
+                if (start.val == start.next.val)
+                {
+                    start.next = start.next.next;
+                }
+                else
+                {
+                    start = start.next;
+                }
+            }
+
             return head;
-        }
+        } 
     }
 
-    public class Node
+
+        
+
+    public class ListNodeClass
     {
         public int val;
-        public Node next;
-        public Node(int val = 0, Node next = null)
+        public ListNodeClass next;
+        public ListNodeClass(int val = 0, ListNodeClass next = null)
         {
             this.val = val;
             this.next = next;

@@ -18,6 +18,9 @@ namespace Creatio
     {
         public static void Main(string[] args)
         {
+            int[] nums = { 1, 2, 3 };
+            int[] nums2 = { 2, 5, 6 };
+            MergeSortedArray.Merge(nums,3,nums2,3);
 
             #region Easy Tasks 
             int[,] array = { { 1, 2, 3 }, { 4, 5, 6 }, { 9, 8, 9 } };
